@@ -40,7 +40,7 @@ ul {
   }
 
   .container{
-      text-align: center;
+    text-align: center;
     color: aliceblue;
     width: 20%;
     overflow: hidden;
@@ -48,4 +48,47 @@ ul {
     margin: 20px auto;
     padding: 20px;
 }
+
+.box{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: cadetblue;
+}
+
+.black{
+  width: 5%;
+  padding: 30px;
+  flex-direction: row;
+  background-color: black;
+}
+
+.white{
+  width: 5%;
+  padding: 30px;
+  flex-direction: row;
+  background-color: white;
+}
+
+.letra{
+  align-content: center;
+  text-align: center;
+  width: 5%;
+  padding: 30px;
+  flex-direction: row;
+
+}
+
+tr{
+text-align: center;
+font-style: bold;
+}
+td{
+  
+  text-align: center;
+  font-style: bold;
+}
+
+
 
