@@ -59,17 +59,36 @@
                     <div class="form-group">
                         <label for="carrera">Carreras</label>
                         <select class="form-control" name="carreras" id="carrera">
-                            <option value="000">Seleccione una carrera</option>
+                            <option value="">Seleccione una carrera</option>
                             <option value="001">Ingeniería de sistemas</option>
                             <option value="002">Derecho</option>
                             <option value="003">Comunicación</option>
                         </select>
                     </div>
-                    <input class="btn btn-primary" type="submit" value="Crear estudiante">
+                    <input class="btn btn-primary" type="submit" id= "btncrearEstudiante"value="Crear estudiante">
+                    <input class="btn btn-primary" type="button"  style= "display: none"id= "btneditarEstudiante"
+                    value="Actualizar" onclick="actualizarEstudiante()">
                 </form>
                
             </div>
         </div>
+
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Identificación</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Correo</th>
+                <th scope="col">Carrera</th>
+                <th scope="col">Editar</th>
+                <th scope="col">Eliminar</th>
+              </tr>
+            </thead>
+            <tbody id="listaEstudiantes">
+              
+       
+            </tbody>
+          </table>
 
 
     </div>
